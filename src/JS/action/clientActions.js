@@ -13,7 +13,7 @@ import {
 import { setAlert } from "../action/alertAction";
 
 const api = axios.create({
-  baseURL: "http://localhost:7000", // Adaptez selon votre configuration
+  baseURL: "http://localhost:7004", // Adaptez selon votre configuration
   timeout: 5000
 });
 
